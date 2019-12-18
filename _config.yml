@@ -1,3 +1,4 @@
 title: Common Code Components Project
 acronym: CCCP
 intro: Some text here for the intro page.  We should put a short little hook here to grab the readers attention.
+baseurl: "/cccp"
