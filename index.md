@@ -19,7 +19,7 @@ name: HOME
       <div class="col-md-4">
         <h2>{{ item.title }}</h2>
         <p>{{ item.intro }}</p>
-        <p><a class="btn btn-secondary" href="{{ item.nav.link }}" role="button">Read more &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="{{ site.baseurl }}{{ item.nav.link }}" role="button">Read more &raquo;</a></p>
       </div>
     {% endfor %}
     </div>
