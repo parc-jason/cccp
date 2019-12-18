@@ -1,0 +1,10 @@
+<nav class="navigation-main" id="navbar">
+    <div class="container">
+      <ul>
+      {% assign navitems = site.data.pagelist.pages | sort: 'nav.order' %}  
+      {% for item in navitems %}
+         <li><a href="{{ item.nav.link }}" {% if page.url == item.nav.link %}class="active"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+</nav>

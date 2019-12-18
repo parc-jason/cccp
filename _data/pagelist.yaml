@@ -1,0 +1,25 @@
+pages:
+  - title: Home
+    intro: ""
+    type: info
+    nav:
+      link: /
+      order: 1
+  - title: CHES
+    intro: A short blurb about CHES.
+    type: service
+    nav:
+      link: /ches.html
+      order: 2
+  - title: CDOGS
+    intro: A short blurb about CDOGS.
+    type: service
+    nav:
+      link: /cdogs.html
+      order: 3
+  - title: About
+    intro: Blah blah blah
+    type: info
+    nav:
+      link: /about.html
+      order: 4 
